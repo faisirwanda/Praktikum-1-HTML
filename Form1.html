@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Form 1</title>
+		<h1>Selamat Datan di Website Kami </h1>
+		<h2>Web Ini Adalah Tutorial Pemrograman Web</h2>
+		<h3>Praktikum Pemrograman Web</h3>
+		<p><a href="http://uin-malang.ac.id"> Teknik Informatika Malang</a><span/> link for your sucsess way </p>
+		<img src="img/download.jfif" alt=gambar width="100" height="100" />
+	</head>
+	<body>
+		<form method="POST" action="response2.jsp" enctype="multipart/form-data"/>
+			<select name="My Lab">
+				<option value='CC'>Lab. Praktikum Computer Vision
+				</option>
+				<option value='SI'>
+					Lab. Sistem Informasi
+				</option>
+				<option value='CAI'>
+					Lab. Computing & AI
+				</option>
+			</select>
+			<input type="file" name="upload" value="Bowse" width="200"/>
+				<table border="2" width="300">
+					<thead>
+						<tr>
+							<caption><b>Tabel Mahasiswa</b></caption>
+							<th>NIM</th>
+							<th>Mahasiswa</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>123</td>
+							<td>Ani Rahmawati</td>
+						</tr>
+						<tr>
+							<td>456</td>
+							<td>Budi Susilo</td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>12</td>
+							<td>Ani Rahmawati</td>
+						</tr>
+						<tr>
+							<td>45</td>
+							<td>Budi Susilo</td>
+						</tr>
+					</tbody>
+			</table>
+			<ol>
+				Bidang Minat
+				<li>Sistem Informasi
+					<ul>
+						<li>Data Warehousing</li>
+						<li>Enterprise Architecture</li>
+					</ul>
+				</li>
+				<li>Multi media
+					<ul>
+						<li>Komputer Grafik</li>
+						<li>Machinema</li>
+					</ul>
+				</li>
+			</ol>
+			<textarea cols="50" rows="6"></textarea>
+			<input type="text">
+			<br>
+			<input type="radio" name="Jenis Kelamin" value="Pria">Pria<br>
+			<input type="radio" name="Jenis Kelamin" value="Wanita">cewek
+			<br>
+			<input type="checkbox" name="Hari" value="Senin">senin<br>
+			<input type="checkbox" name="Hari" value="Selasa">selasa<br>
+			<input type="checkbox" name="Hari" value="Rabu">Rabu
+			<br>
+			<select name="Negara">
+				<option value="Indo">Indonesia</option>
+				<option value="Malay">Malysia</option>
+				<option value="Filp">Filipina</option>
+				<option value="Viet">Vietnam</option>
+			</select>
+			<select name="Negara" multiple="">
+				<option value="Indo">Indonesia</option>
+				<option value="Malay">Malysia</option>
+				<option value="Filp">Filipina</option>
+				<option value="Viet">Vietnam</option>
+			</select>
+			
+			<input type="submit" name="submit" value="Masukan Nilai">
+			<input type="button" name="button" value="subscribe">
+			<input type="reset" name="reset" value="Kosongkan Form">
+			<br>
+			<br>
+			<fieldset>
+				<legend> Login </legend>
+				<label for="Username">Username</label>
+				<input type="text" name="Username" id="Username">
+				<label for="Password">Password</label>
+				<input type="text" name="Password" id="Password">
+			</fieldset>
+			<br>
+			<label>Email
+				<input type="email" name="Username" required="email">
+			</label>
+	</body>
+	</html>
